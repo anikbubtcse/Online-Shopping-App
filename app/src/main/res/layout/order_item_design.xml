@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500">
+        
+        <TextView
+            android:id="@+id/order_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/order_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/order_total_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total amount"
+            android:layout_below="@+id/order_name_tv"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/order_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_total_amount_tv"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/order_city_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_address_tv"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_1"
+            android:layout_below="@+id/order_city_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/order_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_below="@+id/order_city_tv"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/order_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Time"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order_button_id"
+            android:layout_below="@+id/linear_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            android:text="Show this order products"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

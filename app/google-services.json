@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "2973285251",
+    "project_id": "online-shopping-app-ebe2e",
+    "storage_bucket": "online-shopping-app-ebe2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2973285251:android:cc21a6c834f6a56a0594b6",
+        "android_client_info": {
+          "package_name": "com.anik.onlineshoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2973285251-ikdqu5h86m9q8vlfbjs79i6dt9pi7d9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anik.onlineshoppingapp",
+            "certificate_hash": "853002c890a14c75f2e1a7d35e7fce9d6c8e50f2"
+          }
+        },
+        {
+          "client_id": "2973285251-lva1d8ols0mc1slc8j2618m95ot2lk2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB60odEyMSvv7C9IDizu9OeTxplPFomhJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2973285251-lva1d8ols0mc1slc8j2618m95ot2lk2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

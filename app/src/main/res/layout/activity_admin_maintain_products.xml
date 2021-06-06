@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminMaintainProductsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/maintain_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop" />
+
+            <EditText
+                android:id="@+id/maintain_name_Et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/maintain_image_view"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:padding="15dp"
+                android:background="@drawable/input_design"
+                android:textColor="@color/purple_500" />
+
+            <EditText
+                android:id="@+id/maintain_price_Et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/maintain_name_Et"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:padding="15dp"
+                android:background="@drawable/input_design"
+                android:textColor="@color/purple_500" />
+
+            <EditText
+                android:id="@+id/maintain_description_Et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/maintain_price_Et"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:padding="15dp"
+                android:inputType="textMultiLine"
+                android:background="@drawable/input_design"
+                android:textColor="@color/purple_500" />
+
+            <Button
+                android:id="@+id/apply_change_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/maintain_description_Et"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/buttons"
+                android:text="Apply Chages"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
